@@ -1,0 +1,939 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* clearing out the margin and padding default for paragraphs */
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* clearing out default settings for links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* setting styles for the header banner */
+header {
+    /* background-color: #EDEDED; */
+    background-color: white;
+    color: #9B9B9B;
+    font-size: 18px;
+    font-weight: 300;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 120px;
+}
+
+/* styles for the header ul */
+.nav {
+    margin: 0;
+    padding: 0;
+    width: 30%;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* styles for the li elements of the header ul */
+.nav li {
+    display: block;
+}
+
+header a {
+    box-sizing: border-box;
+    padding-bottom: 5px;
+    border-bottom: 1px solid white;
+    transition: all 0.3s;
+}
+
+header a:hover {
+    border-bottom: 1px solid #9B9B9B;
+}
+
+#current-page {
+    color: #FF4646;
+}
+
+#current-page a:hover {
+    border-bottom: 1px solid #FF4646;
+}
+
+/* this controls the first section with the little black dress quote */
+.landing-screen {
+    height: 74vh;
+    display: flex;
+    justify-content: center;
+}
+
+/* this deals with the placement of the little black dress quote */
+h1 {
+    margin: 0;
+    padding-top: 260px;
+    text-align: center;
+}
+
+/* this sets up a guide in preparation for alignment of items in the actual css */
+#home-guide {
+    position: absolute;
+    width: 1440px;
+    z-index: -100;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    opacity: 25%;
+}
+
+.intro-column h2 {
+    margin: 0;
+    font-size: 50px;
+    padding-bottom: 10.6%;
+}
+
+.intro-column p {
+    font-size: 20px;
+    line-height: 1.55rem;
+}
+  
+h3 {
+    margin: 0;
+    font-size: 32px;
+}
+
+/* this defines the background image (letters) */
+/* currently, this composition begins to crumple at 800px width */
+.image-bg {
+    position: relative;
+    width: 100%;
+    background-color: #EDEDED;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 390px;
+}
+
+.image-bg a {
+    font-size: 32px;
+}
+
+.home {
+    position: relative;
+    margin-bottom: 529px;
+    overflow-x: hidden;
+}
+
+.body-text {
+    width: 100%;
+    padding-right: 20%;
+}
+
+h4 {
+    font-size: 36px;
+    color: #FF4646;
+    margin: 0;
+    padding-bottom: 40px;
+}
+
+section p {
+    padding-bottom: 24px;
+}
+
+.image-bg a {
+    transition: all 0.3s;
+}
+
+.image-bg a:hover {
+    color: #FF4646;
+}
+
+/* here start the styles for the footer */
+footer {
+    background-color: #EDEDED;
+    padding-left: 10%;
+    font-size: 20px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+h5 {
+    font-size: 36px;
+    padding-top: 120px;
+    margin: 0;
+    padding-bottom: 80px;
+}
+
+.links {
+    padding-right: 14%;
+}
+
+.links p {
+    padding-bottom: 40px;
+}
+
+.footer-content {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10%;
+    padding-bottom: 120px;
+}
+
+.copyright {
+    font-size: 16px;
+    padding-right: 14%; 
+}
+
+.copyright p {
+    padding-bottom: 20px;
+}
+
+.sources {
+    font-size: 16px;
+    word-break: break-all;
+}
+
+.sources p {
+    padding-bottom: 20px;
+}
+
+#sources-label {
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 24px;
+}
+
+/* here begin the rules for the usage page */
+
+.usage-banner {
+    padding-bottom: 70px;
+}
+
+.usage-list {
+    margin: 0;
+    padding: 0;
+}
+
+.usage-list li {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-aligned .usage-content {
+    padding-left: 12vw;
+}
+
+.right-aligned .usage-content {
+    padding-right: 12vw;
+}
+
+.large img {
+    padding-bottom: 30px;
+}
+
+/* small styles */
+.small img {
+    width: 400px;
+}
+
+.small {
+    width: 70%;
+    margin-left: 8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.small h6 {
+    color: #FF4646;
+    font-size: 20px;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.usage-info {
+    width: 40%;
+    padding-left: 10%;
+}
+
+/* oral-b style */
+
+.oral-b {
+    padding-bottom: 180px;
+}
+
+/* target style */
+
+.target {
+    padding-top: 50px;
+}
+
+.target img {
+    width: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/* bmw style */
+
+.bmw {
+    padding-top: 50px;
+}
+
+.bmw img {
+    width: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/* american apparel styles */
+
+.american-apparel .usage-content {
+    background-color: #D9D9D9;
+    width: 50%;
+}
+
+.american-apparel .usage-image {
+    width: 50%;
+}
+ 
+.american-apparel .usage-image {
+    background-image: url(../images/american-apparel-photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.american-apparel .large img {
+    width: 40%;
+}
+
+.american-apparel .large p {
+    width: 60%;
+}
+
+/* knoll styles */
+
+.knoll .usage-content {
+    background-color: #D9D9D9;
+    width: 30%;
+}
+
+.knoll .usage-image {
+    width: 70%;
+}
+ 
+.knoll .usage-image {
+    background-image: url(../images/knoll-photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+.knoll .large img {
+    width: 30%;
+}
+
+.knoll .large p {
+    width: 80%;
+    float: right;
+}
+
+/* panasonic styles */
+
+.panasonic .usage-content {
+    background-color: #D9D9D9;
+    width: 40%;
+}
+
+.panasonic .usage-image {
+    width: 60%;
+}
+ 
+.panasonic .usage-image {
+    background-image: url(../images/panasonic-photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.panasonic .large img {
+    width: 40%;
+}
+
+.panasonic .large p {
+    width: 70%;
+}
+
+/* toyota styles */
+
+.toyota .usage-content {
+    background-color: #D9D9D9;
+    width: 30%;
+}
+
+.toyota .usage-image {
+    width: 70%;
+}
+ 
+.toyota .usage-image {
+    background-image: url(../images/toyota-photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+.toyota .large img {
+    width: 50%;
+}
+
+.toyota .large p {
+    width: 80%;
+    float: right;
+}
+
+/* history */
+
+.history {
+    background-image: url(../images/history-lineless-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* note: the following code is adapted from w3 schools: https://www.w3schools.com/howto/howto_css_timeline.asp */
+
+.history * {
+    box-sizing: border-box;
+}
+
+.history-banner h3 {
+    color: white;
+}
+
+.timeline {
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: #EDEDED;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+
+.entry {
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+    padding-bottom: 180px;
+}
+
+.entry::after {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: -15px;
+    background-color: #EDEDED;
+    top: 40px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.to-adjust::after {
+    top: 90px;
+}
+
+.left {
+    left: 0;
+    padding-left: 12%;
+    padding-right: 5%;
+}
+
+.right {
+    left: 50%;
+    padding-right: 12%;
+    padding-left: 5%;
+}
+
+.right::after {
+    left: -15px;
+}
+
+.history-content {
+    color: white;
+    position: relative;
+    border-radius: 6px;
+}
+
+.history-content p {
+    font-size: 18px;
+    margin-bottom: 24px;
+    line-height: 2rem;
+    color: white;
+}
+
+.history-content h6 {
+    font-size: 64px;
+    color: #FF4646;
+    margin: 0;
+    padding-bottom: 12px;
+    padding-top: 72px;
+}
+
+.history-content img {
+    width: 100%;
+}
+
+/* variations */
+
+.variations-banner h3 {
+    color: white;
+}
+
+.var-bg-color {
+    background-color: #333333;
+}
+
+.variation-image {
+    margin: 0;
+    padding-bottom: 529px;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+.variation-image img {
+    width: 100%;
+}
+
+/* this sets the color of certain footer items */
+.grey {
+    color: #6c6c6c;
+}
+
+/* this messes with the indentation for pages */
+.pages {
+    padding-left: 0;
+    margin-left: 12vw;
+    padding-top: 80px;
+    padding-bottom: 160px;
+    font-size: 48px;
+}
+
+
+/* variety of rules for less than 800px */
+@media (max-width: 799px) {
+    .intro-column {
+        width: 65%;
+        padding-top: 100px;
+        padding-left: 80px;
+        padding-bottom: 150px;
+    }
+
+    h3 {
+        padding-left: 80px;
+        line-height: 4.2rem;
+    }
+    
+    #right-species-link {
+        padding-bottom: 120px;
+    }
+
+    .home img {
+        position: relative;
+        left: 12%;
+        width: 100vh;
+        padding-bottom: 75px;
+    }
+
+    .home p {
+        line-height: 1.4rem;
+        padding-bottom: 32px;
+    }
+
+    .home-info-column {
+        width: 80%;
+        padding-left: 12%;
+    }
+
+    .offset-target {
+        position: relative;
+        top: 30vh;
+    }
+
+    .footer-content {
+        display: block;
+    }
+
+    .links {
+        padding-bottom: 40px;
+    }
+
+    .copyright {
+        padding-bottom: 30px;
+    }
+
+    /* history media query adapted from w3 schools */
+    .timeline::after {
+        left: 8vh;
+    }
+
+    .entry {
+        width: 90%;
+        padding-left: 140px;
+    }
+
+    .left::after, .right::after {
+        left: 6.4vh;
+    }
+
+    .right {
+        left: 0%;
+    }
+}
+
+/* media query for 800px */
+@media (min-width: 800px) {
+    .intro-column {
+        position: absolute;
+        top: 18.3%;
+        left: 16.9%;
+        width: 30.8%;
+    }
+
+    #right-name-link {
+        position: absolute;
+        top: 37.3%;
+        left: 16.9%;
+    }
+
+    #right-look-link {
+        position: absolute;
+        top: 52.4%;
+        left: 65.6%;
+    }
+    
+    #right-brand-link {
+        position: absolute;
+        top: 66.6%;
+        left: 36%;
+    }
+    
+    #right-species-link {
+        position: absolute;
+        top: 77.1%;
+        left: 73.1%;
+    }
+
+    .image-bg {
+        aspect-ratio: 1440/3233;
+        background-image: url(../images/home-bg.png);
+    }
+
+    /* this will control the body and the images */
+    .home-info-column {
+        font-size: 20px;
+        padding-left: 12%;
+        width: 40%;
+        line-height: 2rem;
+    }
+
+    .home-info-column p {
+        padding-bottom: 32px;
+    }
+
+    .home img {
+        height: 100%;
+        left: 70%;
+        top: 0;
+        position: absolute;
+    }
+
+    .offset-target {
+        position: relative;
+        top: -25vh;
+    }
+}
+
+/* this sets the intro for mobile */
+@media (max-width: 500px) {
+    .intro-column {
+        padding-left: 0;
+        margin: auto;
+    }
+
+    .variation-alt {
+        display: block;
+    }
+
+    .variation-base {
+        display: none;
+    }
+}
+
+@media(min-width: 501px) {
+    .variation-base {
+        display: block
+    }
+
+    .variation-alt {
+        display: none;
+    }
+}
+
+@media(max-width: 450px) {
+    .timeline::after {
+        display: none;
+    }
+
+    .entry::after {
+        display: none;
+    }
+
+    .entry {
+        width: 90%;
+        padding-left: 0;
+        padding-right: 0;
+        margin: auto;
+    }
+}
+
+/* usage responsiveness */
+@media(max-width: 650px) {
+
+    .usage-list li {
+        display: block;
+        width: 90%;
+        padding-bottom: 100px;
+    }
+
+    .usage-image {
+        display: none;
+    }
+
+    .usage-list {
+        background-color: #D9D9D9;
+    }
+
+    .usage-info h6 {
+        display: none;
+    }
+
+    .usage-content {
+        display: block;
+    }
+
+    .usage-list img {
+        width: 80%;
+    }
+
+    .small {
+        width: 100%;
+        padding-top: 0;
+    }
+
+    .small img {
+        padding-bottom: 30px;
+    }
+    
+    .usage-info {
+        padding: 0;
+        width: 100%;
+    }
+
+    .american-apparel .large img {
+        width: 100%;
+    }
+
+    .knoll .large img {
+        width: 100%;
+    }
+
+    .panasonic .large img {
+        width: 100%;
+    }
+
+    .toyota .large img {
+        width: 80%;
+    }
+
+    /* american apparel */
+    .american-apparel .large p {
+        width: 80%;
+        float: none;
+        text-align: left;
+    }
+
+    .american-apparel .usage-content {
+        width: 100%;
+    }
+
+    /* knoll */
+    .knoll .large p {
+        width: 80%;
+        float: none;
+    }
+
+    .knoll .usage-content {
+        width: 100%;
+    }
+
+    /* panasonic */
+    .panasonic .large p {
+        width: 80%;
+    }
+
+    .panasonic .usage-content {
+        width: 100%;
+    }
+
+    /* toyota */
+    .toyota .large p {
+        width: 80%;
+        float: none;
+        text-align: left;
+    }
+
+    .toyota .usage-content {
+        width: 100%;
+    }
+
+    .large {
+        margin-left: 8vw;
+    }
+
+    .usage-list p {
+        width: 80%;
+    }
+
+    .left-aligned .usage-content {
+        padding: 0;
+    }
+
+    .target img {
+        padding: 0;
+        padding-bottom: 30px;
+        width: 50%;
+    }
+
+    .bmw img {
+        padding: 0;
+        padding-bottom: 30px;
+        width: 50%;
+    }
+
+    /* adjusting padding */
+    .oral-b {
+        padding-bottom: 0;
+    }
+
+    #half-logo {
+        display: none;
+    }
+
+    #full-logo {
+        display: block;
+    }
+
+    .target {
+        padding-top: 0;
+    }
+
+    .bmw {
+        padding-top: 0;
+    }
+
+    .american-apparel {
+        padding-top: 70px;
+    }
+}
+
+@media (min-width: 651px) {
+    .american-apparel {
+        flex-direction: row-reverse;
+        height: 550px;
+    }
+
+    .knoll {
+        text-align: right;
+        height: 550px;
+    }
+
+    .panasonic {
+        flex-direction: row-reverse;
+        height: 550px;
+        padding-bottom: 250px;
+    }
+
+    .toyota {
+        text-align: right;
+        height: 550px;
+        padding-bottom: 250px;
+    }
+
+    #full-logo {
+        display: none;
+    }
+
+    #half-logo {
+        display: inline-block;
+    }
+
+    /* lufthansa style */
+    .lufthansa {
+        padding-top: 100px;
+        padding-bottom: 250px;
+    }
+
+    .large {
+        padding-top: 120px;
+    }
+}
+
+@media(max-width: 900px) {
+    .nav {
+        width: 60%;
+    }
+}
+
+@media(max-width: 600px) {
+    header p {
+        width: 100%;
+    }
+
+    header {
+        display: block;
+        padding-top: 70px;
+    }
+
+    .nav {
+        padding-top: 50px;
+        padding-bottom: 100px;
+        display: block;
+        float: none;
+    }
+
+    .nav p {
+        padding-bottom: 10px;
+    }
+}
+
+@media(min-width: 601px) {
+    .nav {
+        height: 130px;
+    }
+}
