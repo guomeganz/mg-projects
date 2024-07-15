@@ -1,0 +1,427 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Onest', sans-serif;
+    color: white;
+    background-color: rgb(233, 233, 233);
+}
+
+body p {
+    line-height: 1.3;
+}
+
+header {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    position: fixed;
+    height: 111px;
+}
+
+section {
+    text-align: center;
+    max-width: 1000px;
+    margin: auto;
+    color: black;
+}
+
+.title-banner {
+    height: 500px;
+    width: 100%;
+    background-image: url(images/castle-crashers.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+}
+
+.banner-image {
+    background-color: rgb(0, 0, 0, 0.8);
+    height: 100%;
+    margin: auto;
+}
+
+.opener-bg {
+    margin: 0;
+    width: 100%;
+    padding-top: 111px;
+    font-family: "pf-fuel-grime", sans-serif;
+}
+
+h1 {
+    margin: 0;
+    padding-top: 125px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "lulo-one", sans-serif;
+    font-weight: 700;
+}
+
+h2 {
+    margin: 0;
+    font-size: 170px;
+    padding-top: 20px;
+}
+
+h3 {
+    font-size: 40px;
+    margin: 0;
+    padding-top: 55px;
+    padding-bottom: 20px;
+    color: #575fab;
+}
+
+header img {
+    padding: 18px 0 10px 30px;
+    height: 60px;
+}
+
+header .links {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-right: 30px;
+}
+
+header p {
+    padding: 0 15px 0 15px;
+}
+
+header a:link {
+    text-decoration: none;
+    color: white;
+}
+
+header a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.game-list {
+    padding: 0;
+    text-align: left;
+    margin: 0;
+}
+
+.game-list li {
+    display: block;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+.game-list li:first-child {
+    padding-top: 60px;
+}
+
+.game-list li:last-child {
+    padding-bottom: 120px;
+}
+
+.game-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-block img {
+    width: 300px;
+    height: 170px;
+    padding-right: 30px;
+    object-fit: cover;
+}
+
+.game-list p {
+    width: 36%;
+}
+
+.info {
+    width: 36%;
+}
+
+.info p {
+    margin: 0;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.info a:link {
+    color: #575fab;
+}
+
+.info a:visited {
+    color: #575fab;
+}
+
+.intro-paragraph, .careers-paragraph {
+    width: 67%;
+    text-align: left;
+    margin: auto;
+    padding-bottom: 30px;
+    border-bottom: 2px solid rgb(176, 176, 176);
+}
+
+.logo {
+    padding-bottom: 25px;
+    text-align: center;
+}
+ 
+.logo img {
+    width: 450px;
+}
+
+.about-banner {
+    background-image: url(images/battleblock-shot.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.about {
+    padding-top: 30px;
+    padding-bottom: 60px;
+    color: white;
+    width: 42%;
+    font-size: 1.2rem;
+}
+
+.about h3 {
+    color: white;
+}
+
+.image-row img {
+    width: 30%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.image-row {
+    margin: auto;
+    width: 85%;
+    padding-bottom: 85px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.careers {
+    margin-bottom: 60px;
+}
+
+.news h3 {
+    color: white;
+}
+
+.news-banner {
+    background-image: url(images/hominid-shot.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+}
+
+.grid {
+    padding: 0;
+    color: white;
+    padding-top: 60px;
+}
+
+.grid li {
+    display: block;
+    width: 50%;
+}
+
+.grid img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.text {
+    text-align: left;
+    width: 200px;
+    padding-left: 20px;
+}
+
+.news-grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.news-block {
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 60px;
+    width: 90%;
+}
+
+footer {
+    color: #575fab;
+    background-color: black;
+}
+
+footer p {
+    margin: 0;
+    font-weight: 700;
+}
+
+h4 {
+    margin: 0;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: rgb(225, 255, 174);
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 200px 10px 200px;
+}
+
+footer div {
+    width: 214px;
+}
+
+footer h4 {
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+
+.socials {
+    text-align: center;
+}
+
+.social-list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-list li {
+    display: block;
+}
+
+.social-list img {
+    width: 40px;
+    padding-bottom: 20px;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.copyright img {
+    padding-top: 25px;
+    width: 120px;
+}
+
+@media (max-width: 950px) {
+    .links > p {
+        display: none;
+    }
+
+    .about {
+        width: 60%;
+    }
+}
+
+@media (max-width: 700px) {
+    .image-row {
+        display: none;
+    }
+}
+
+@media (max-width: 925px) {
+    .news-block {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text {
+        padding-left: 0;
+        padding-top: 10px;
+    }
+}
+
+@media (max-width: 1100px) {
+    footer {
+        justify-content: center;
+    }
+
+    .socials {
+        display: none;
+    }
+
+    .comments {
+        display: none;
+    }
+}
+
+@media (max-width: 800px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 6rem;
+    }
+
+    .title-banner {
+        background-image: url(images/castle-crashers-2.jpg);
+        background-position: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .game-block {
+        flex-direction: column;
+    }
+
+    .game-list {
+        width: 100%;
+    }
+
+    .game-list li {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .game-list img {
+        padding: 0;
+    }
+
+    .info {
+        padding-top: 10px;
+        width: 61%;
+    }
+
+    .copyright {
+        text-align: center;
+    }
+}
+
+@media (max-width: 450px) {
+    .news-block {
+        width: 100%;
+    }
+
+    .news-grid {
+        width: 100%;
+        padding: 0;
+    }
+
+    .news-grid li {
+        width: 100%;
+    }
+}
