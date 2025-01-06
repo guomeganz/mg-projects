@@ -1,0 +1,66 @@
+/* styling the form */
+
+#search-form {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+#search-form form {
+    width: 100%;
+}
+
+#form {
+    outline: none;
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    font-size: 20px;
+    border: 2px solid white;
+    background-color: #EFEFEF;
+    color: #717171;
+    transition: all 0.3s ease;
+}
+
+#form:hover {
+    background-color: #dadada;
+}
+
+/* styling the submission button */
+#add-button {
+    background-color: black;
+    height: 55px;
+    width: 64px;
+    margin-left: 2vw;
+    border: 0 solid white;
+    border-radius: 8px;
+    color: white;
+    font-family: 'Khand', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    transition: all 0.3s;
+}
+
+#add-button:hover {
+    background-color: #3072B7;
+    color: white;
+}
+
+@media(max-width: 799px) {
+    #search-form {
+        width: 90%;
+    }
+
+    #form {
+        width: 60%;
+    }
+
+    #add-button {
+        margin-left: 4vw;
+    }
+
+  }
