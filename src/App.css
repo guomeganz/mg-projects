@@ -1,0 +1,134 @@
+.body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+.body p {
+  line-height: 2.3rem;
+}
+
+h1 {
+  font-family: 'Khand', sans-serif;
+  font-size: 72px;
+  margin: 0;
+}
+
+h2 {
+  font-family: 'Khand', sans-serif;
+  font-size: 60px;
+  color: #3072B7;
+  margin: 0;
+}
+
+h3 {
+  font-family: 'Khand', sans-serif;
+  font-size: 120px;
+  color: #3072B7;
+  margin: 0;
+}
+
+.banner-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-color: #292929;
+}
+
+.banner-image img {
+  display: block;
+  width: 60vw;
+  margin: auto;
+}
+
+/* styling header */
+header h1 {
+  padding-top: 200px;
+  padding-bottom: 50px;
+}
+
+header h2 {
+  padding-bottom: 150px;
+}
+
+/* styling the hint message  */
+
+.hint-message {
+  color: #A5A5A5;
+  font-size: 16px;
+  padding-bottom: 100px;
+}
+
+.hint-message p {
+  margin: 0;
+}
+
+/* styling the note */
+.note {
+  padding-bottom: 50px;
+}
+
+/* styling or */
+.or {
+  padding-bottom: 90px;
+}
+
+.content {
+  max-width: 90vw;
+  margin: auto;
+  text-align: center;
+}
+
+#team-info-list {
+  padding: 0 0 100px 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+footer {
+  background-color: #D9D9D9;
+}
+
+/* clearing out the automatic margins */
+footer p {
+  margin: 0;
+}
+
+/* footer styling */
+footer {
+  color: #717171;
+  font-size: 18px;
+}
+
+.footer-info {
+  width: 85%;
+  padding-top: 150px;
+  padding-bottom: 200px;
+  margin: auto;
+}
+
+.footer-subsection {
+  padding-bottom: 20px;
+}
+
+/* responsiveness */
+@media(max-width: 799px) {
+  .banner-image {
+    width: 100%;
+    object-fit: cover;
+    background-color: #292929;
+  }
+  
+  .banner-image img {
+    display: block;
+    width: 100%;
+    margin: auto;
+  }
+
+  header h1 {
+    padding-top: 20vw;
+    padding-bottom: 50px;
+  }
+
+}

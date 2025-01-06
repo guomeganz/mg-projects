@@ -1,0 +1,33 @@
+/* styling ClearAllButton */
+#clear-all-button {
+    background-color: #FFCB06;
+    height: 10vw;
+    width: 30vw;
+    border-radius: 2vw;
+    border: 0px solid white;
+    color: black;
+    font-family: 'Khand', sans-serif;
+    font-weight: 700;
+    font-size: 3vw;
+    transition: all 0.3s;
+}
+
+#clear-all-button:hover {
+    font-size: 4vw;
+}
+
+.clear-all {
+    padding-bottom: 300px;
+}
+
+@media(max-width: 799px) {
+    #clear-all-button {
+        width: 60vw;
+        height: 20vw;
+        font-size: 6vw;
+    }
+
+    #clear-all-button:hover {
+        font-size: 7vw;
+    }
+}

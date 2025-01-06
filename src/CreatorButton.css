@@ -1,0 +1,31 @@
+/* styling creator button */
+#creator-choice-button {
+    background-color: #3C3C3C;
+    height: 10vw;
+    width: 30vw;
+    border-radius: 2vw;
+    border: 0px solid white;
+    color: #FFCB06;
+    font-family: 'Khand', sans-serif;
+    font-weight: 700;
+    font-size: 3vw;
+    transition: all 0.3s;
+}
+
+#creator-choice-button:hover {
+    background-color: white;
+    border: 3px solid #3072B7;
+    color: black; 
+}
+
+.creator-choice {
+    padding-bottom: 200px;
+}
+
+@media(max-width: 799px) {
+    #creator-choice-button {
+        width: 60vw;
+        height: 20vw;
+        font-size: 6vw;
+    }
+}
